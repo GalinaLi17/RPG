@@ -11,7 +11,7 @@ public class Player extends Entity{
         System.out.println("I'm player");
     }
 
-    public void heat(Enemy enemy) {
+    public void hit(Enemy enemy) {
         enemy.hp -= damage;
     }
 
