@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        Friend friend = new Friend(100, "Roman", 50);
+        Friend friend = new Friend(100, "Roma", 50);
         Enemy enemy = new Enemy(100, "Danil", 10);
         Player player = new Player(100, "Lina", 30);
 
