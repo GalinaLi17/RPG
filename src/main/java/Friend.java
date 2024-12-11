@@ -6,6 +6,14 @@ public class Friend extends Entity{
         this.healPoints = healPoints;
     }
 
+    public int getHealPoints() {
+        return healPoints;
+    }
+
+    public void setHealPoints(int healPoints) {
+        this.healPoints = healPoints;
+    }
+
     @Override
     public void scream() {
         System.out.println("I'm friend");

@@ -6,6 +6,14 @@ public class Player extends Entity{
         this.damage = damage;
     }
 
+    public int getDamage() {
+        return damage;
+    }
+
+    public void setDamage(int damage) {
+        this.damage = damage;
+    }
+
     @Override
     public void scream() {
         System.out.println("I'm player");

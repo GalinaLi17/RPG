@@ -6,6 +6,14 @@ public class Enemy extends Entity{
         this.poisonPoints = poisonPoints;
     }
 
+    public int getPoisonPoints() {
+        return poisonPoints;
+    }
+
+    public void setPoisonPoints(int poisonPoints) {
+        this.poisonPoints = poisonPoints;
+    }
+
     public void poison(Entity entity) {
         entity.hp -= poisonPoints;
     }
